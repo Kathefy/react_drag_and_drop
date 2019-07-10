@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import DragDrop from './DragDrop';
 import './App.css';
 
-export default class App extends Component {
-  render() {
-    return <div className="container-drag">Drag and Drop</div>;
-  }
+export default function App() {
+  return (
+    <div>
+      Drag And Drop
+      <DragDrop />
+    </div>
+  );
 }
